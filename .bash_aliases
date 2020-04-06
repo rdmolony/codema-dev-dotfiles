@@ -1,0 +1,6 @@
+alias home='cd /mnt/c/users/rowanm/'
+alias mplan='cd /mnt/c/users/rowanm/Documents/dublin_energy_masterplan'
+alias sbrc='source ~/.bashrc'
+alias vbal='vim ~/.bash_aliases'
+alias lsa='ls -a'
+alias vgptheme='vim ~/.git-prompt-colors.sh'
