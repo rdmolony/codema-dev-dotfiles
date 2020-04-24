@@ -139,3 +139,6 @@ CONDA_AUTO_ACTIVATE_BASE=false
 
 # Set custom colors
 LS_COLORS=$LS_COLORS:'di=0;35:ow=01;36;40' ; export LS_COLORS
+
+# Use Windows XcXsrv native X-server so can launch windows within WSL
+export DISPLAY=`grep -oP "(?<=nameserver ).+" /etc/resolv.conf`:0.0
