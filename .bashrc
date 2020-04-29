@@ -122,74 +122,6 @@ case $- in
     *) return;;
 esac
 
-## Path to the bash it configuration
-#export BASH_IT="/home/wsl-rowanm/.bash_it"
-#
-## Lock and Load a custom theme file.
-## Leave empty to disable theming.
-## location /.bash_it/themes/
-## clean, modern, brainy, envy
-#export BASH_IT_THEME=''
-#
-## (Advanced): Change this to the name of your remote repo if you
-## cloned bash-it with a remote other than origin such as `bash-it`.
-## export BASH_IT_REMOTE='bash-it'
-#
-## Your place for hosting Git repos. I use this for private repos.
-## export GIT_HOSTING='git@git.domain.com'
-#export GIT_HOSTING='rowanmolony@codema.ie'
-#
-## Don't check mail when opening terminal.
-#unset MAILCHECK
-#
-## Change this to your console based IRC client of choice.
-#export IRC_CLIENT='irssi'
-#
-## Set this to the command you use for todo.txt-cli
-#export TODO="t"
-#
-## Set this to false to turn off version control status checking within the prompt for all themes
-#export SCM_CHECK=true
-#
-## Set Xterm/screen/Tmux title with only a short hostname.
-## Uncomment this (or set SHORT_HOSTNAME to something else),
-## Will otherwise fall back on $HOSTNAME.
-##export SHORT_HOSTNAME=$(hostname -s)
-#
-## Set Xterm/screen/Tmux title with only a short username.
-## Uncomment this (or set SHORT_USER to something else),
-## Will otherwise fall back on $USER.
-##export SHORT_USER=${USER:0:8}
-#
-## Set Xterm/screen/Tmux title with shortened command and directory.
-## Uncomment this to set.
-##export SHORT_TERM_LINE=true
-#
-## Set vcprompt executable path for scm advance info in prompt (demula theme)
-## https://github.com/djl/vcprompt
-##export VCPROMPT_EXECUTABLE=~/.vcprompt/bin/vcprompt
-#
-## (Advanced): Uncomment this to make Bash-it reload itself automatically
-## after enabling or disabling aliases, plugins, and completions.
-## export BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE=1
-#
-## Uncomment this to make Bash-it create alias reload.
-## export BASH_IT_RELOAD_LEGACY=1
-#
-## Load Bash It
-#source "$BASH_IT"/bash_it.sh
-#
-# Enable UTF-8 characters
-#LC_ALL=en_US.UTF-8
-
-# Setup bash-git-prompt
-#if [ -f "$HOME/.bash-git-prompt/gitprompt.sh" ]; then
-#    GIT_PROMPT_ONLY_IN_REPO=1
-#    # GIT_PROMPT_THEME=Custom
-#    GIT_PROMPT_THEME=Solarized_Ubuntu
-#    source $HOME/.bash-git-prompt/gitprompt.sh
-#fi
-
 # edit ls_colors ow to make directories readable!
 LS_COLORS=$LS_COLORS:'di=0;35:ow=01;36;40' ; export LS_COLORS
 
@@ -207,6 +139,3 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
-CONDA_AUTO_ACTIVATE_BASE=false
-# . "/home/wsl-rowanm/miniconda3/etc/profile.d/conda.sh"  # commented out by conda initialize
