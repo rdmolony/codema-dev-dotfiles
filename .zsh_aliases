@@ -1,6 +1,6 @@
 alias home='cd /mnt/c/users/rowanm/'
-alias mplan='cd /mnt/c/users/rowanm/documents/dublin_energy_masterplan'
-alias deap='cd /mnt/c/users/rowanm/documents/deap_seai'
+alias mplan='cd /mnt/c/users/rowanm/documents/dublin-energy-masterplan'
+alias deap='cd /mnt/c/users/rowanm/documents/deap-codema'
 alias downloads='cd /mnt/c/users/rowanm/downloads'
 alias vscode-settings='cd /mnt/c/Users/RowanM/AppData/Roaming/Code/User'
 alias open='explorer.exe .'
