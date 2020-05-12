@@ -147,17 +147,7 @@ CONDA_AUTO_ACTIVATE_BASE=false
 LS_COLORS=$LS_COLORS:'di=0;35:ow=01;36;40' ; export LS_COLORS
 
 # Use Windows XcXsrv native X-server so can launch windows within WSL
-# export DISPLAY=`grep -oP "(?<=nameserver ).+" /etc/resolv.conf`:0.0
-# export DISPLAY=:0
-# export DISPLAY="$(awk '/nameserver/ {print $2}' < /etc/resolv.conf)":0
-# export DISPLAY=$(grep -m 1 nameserver /etc/resolv.conf | awk '{print $2}'):0.0
-# Using host IP Address - change each time IP changes ...
-# export DISPLAY=192.168.43.81:0.0
-# export LIBGL_ALWAYS_INDIRECT=2
-# export DISPLAY=127.0.0.1:0.0
-# export DISPLAY=173.28.160.1:0.0
-export DISPLAY="$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null)":0
-export LIBGL_ALWAYS_INDIRECT=1
+export DISPLAY=`grep -oP "(?<=nameserver ).+" /etc/resolv.conf`:0.0
 
 # Add .local to PATH
 path+=('$HOME/.local/bin')
