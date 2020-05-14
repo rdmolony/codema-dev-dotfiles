@@ -81,6 +81,7 @@ plugins=(
 	git
 	tmux
 	python
+	web-search
 	colorize
 	colored-man-pages
 )
