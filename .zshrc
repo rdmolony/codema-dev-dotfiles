@@ -142,7 +142,6 @@ fi
 # <<< conda initialize <<<
 
 CONDA_AUTO_ACTIVATE_BASE=false
-# . "/home/wsl-rowanm/miniconda3/etc/profile.d/conda.sh"  # commented out by conda initialize
 
 # Set custom colors
 LS_COLORS=$LS_COLORS:'di=0;35:ow=01;36;40' ; export LS_COLORS
@@ -152,4 +151,14 @@ export DISPLAY=`grep -oP "(?<=nameserver ).+" /etc/resolv.conf`:0.0
 
 # Add .local to PATH
 path+=('$HOME/.local/bin')
-export path           
+path+='/usr/local/bin' # to access brew
+export path
+
+# brew completions in zsh
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+
+  autoload -Uz compinit
+  compinit
+fi
+
