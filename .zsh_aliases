@@ -17,4 +17,4 @@ alias ci='conda install'
 alias cui='conda uninstall'
 alias pi='pip install'
 alias pui='pip uninstall'
-alias ipy="ipython --no-banner --no-confirm-exit --quick --InteractiveShellApp.exec_lines=\"['import os,sys', 'import pandas as pd', 'import numpy as np']\""
+alias ipy="ipython --no-banner --no-confirm-exit --quick --InteractiveShellApp.exec_lines=\"['import os, sys', 'import pandas as pd', 'import numpy as np', 'import geopandas as gpd', 'from sys import modules']\""
