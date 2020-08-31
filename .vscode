@@ -1,0 +1,45 @@
+{
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        88
+    ],
+    "git.autofetch": true,
+    "python.dataScience.askForKernelRestart": false,
+    "python.formatting.autopep8Args": [
+        "--max-line-length=88"
+    ],
+    "python.formatting.provider": "black",
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.linting.mypyArgs": [
+        "--ignore-missing-imports",
+        "--follow-imports=silent",
+        "--show-column-numbers",
+        "--strict"
+    ],
+    "python.linting.mypyEnabled": true,
+    "python.showStartPage": false,
+    "python.testing.pytestEnabled": true,
+    "restructuredtext.experimental": true,
+    "restructuredtext.preview.name": "docutil",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontSize": 11,
+    "terminal.integrated.inheritEnv": false,
+    "terminal.integrated.lineHeight": 1.3,
+    "terminal.integrated.rendererType": "canvas",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+    "terminal.integrated.unicodeVersion": "6",
+    "vim.useCtrlKeys": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.zoomLevel": -1,
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#00ff15"
+    },
+    "workbench.colorTheme": "Solarized Light",
+    "workbench.iconTheme": "vscode-icons",
+    "liveshare.connectionMode": "relay",
+    "remote.extensionKind": {
+        "ms-azuretools.vscode-docker": "workspace"
+    }
+}
