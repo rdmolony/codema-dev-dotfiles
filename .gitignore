@@ -5,6 +5,5 @@
 !.gitignore
 !.zshrc
 !.zsh_aliases
-!.oh-my-zsh
 !.p10k.zsh
 !.vscode
