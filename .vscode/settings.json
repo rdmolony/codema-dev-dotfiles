@@ -5,7 +5,6 @@
         88
     ],
     "git.autofetch": true,
-    "python.dataScience.askForKernelRestart": false,
     "python.formatting.autopep8Args": [
         "--max-line-length=88"
     ],
@@ -19,10 +18,7 @@
         "--strict"
     ],
     "python.linting.mypyEnabled": true,
-    "python.showStartPage": false,
     "python.testing.pytestEnabled": true,
-    "restructuredtext.experimental": true,
-    "restructuredtext.preview.name": "docutil",
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "terminal.integrated.fontSize": 11,
     "terminal.integrated.inheritEnv": false,
@@ -38,8 +34,8 @@
     },
     "workbench.colorTheme": "Solarized Light",
     "workbench.iconTheme": "vscode-icons",
-    "liveshare.connectionMode": "relay",
     "remote.extensionKind": {
         "ms-azuretools.vscode-docker": "workspace"
-    }
+    },
+    "python.pythonPath": "/usr/local/lib/.cache/pypoetry/virtualenvs/drem-TFRFQYJy-py3.8/bin/python3"
 }
